@@ -1,67 +1,240 @@
 {
-	"services": [
-		{
-			"id": 1,
-			"class": "",
-			"treatment": "Cardiology",
-			"price": 15000,
-			"description": "Keeping your heart strong and healthy is crucial to your overall well-being. Our cardiology services are here to help you manage and treat your heart health no matter what you might need.",
-			"icon": "https://i.ibb.co/DpVdYqQ/heart-2.png",
-			"service_img": "https://i.ibb.co/rG0TSwX/01.jpg"
-		},
-		{
-			"id": 2,
-			"class": "animation",
-			"treatment": "Neurology",
-			"price": 25000,
-			"description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
-			"icon": "https://i.ibb.co/nzHc2t7/brain-2.png",
-			"service_img": "https://i.ibb.co/Bn2GG0N/06.jpg"
-		},
-		{
-			"id": 3,
-			"class": "",
-			"treatment": "Stomach",
-			"price": 3000,
-			"description": "What is the stomach? The stomach is a J-shaped organ that digests food. It produces enzymes (substances that create chemical reactions) and acids (digestive juices). This mix of enzymes and digestive juices breaks down food so it can pass to your small intestine. Your stomach is part of the gastrointestinal (GI) tract.",
-			"icon": "https://i.ibb.co/Ks1jsVf/stomach-2.png",
-			"service_img": "https://i.ibb.co/CK7Y2DD/03.jpg"
-		},
-		{
-			"id": 4,
-			"class": "",
-			"treatment": "Covid 19",
-			"price": 100,
-			"description": "Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age.",
-			"icon": "https://i.ibb.co/NWKjgmj/virus-2.png",
-			"service_img": "https://i.ibb.co/3FS3B8h/08.jpg"
-		},
-		{
-			"id": 5,
-			"class": "animation",
-			"treatment": "Lungs",
-			"price": 9000,
-			"description": "The lungs are a pair of spongy, air-filled organs located on either side of the chest (thorax). The trachea (windpipe) conducts inhaled air into the lungs through its tubular branches, called bronchi. The bronchi then divide into smaller and smaller branches (bronchioles), finally becoming microscopic.",
-			"icon": "https://i.ibb.co/w0Mh2Jf/lungs.png",
-			"service_img": "https://i.ibb.co/q9SM3XT/10.jpg"
-		},
-		{
-			"id": 6,
-			"class": "",
-			"treatment": "Bronchus",
-			"price": 1800,
-			"description": "(BRON-kus) A large airway that leads from the trachea (windpipe) to a lung. The plural of bronchus is bronchi. Enlarge. Anatomy of the respiratory system, showing the trachea and both lungs and their lobes and airways.",
-			"icon": "https://i.ibb.co/yyPd0N8/bronchus.png",
-			"service_img": "https://i.ibb.co/dDsVnnZ/09.jpg"
-		},
-		{
-			"id": 7,
-			"class": "",
-			"treatment": "Vaccine",
-			"price": 0,
-			"description": "Safe and effective vaccines are available that provide strong protection against serious illness, hospitalization and death from COVID-19. Billions of people have been vaccinated against COVID-19. Getting vaccinated is one of the most important things you can do to protect yourself against COVID-19, help end the pandemic and stop new variants emerging. Take all COVID-19 vaccine doses recommended to you by your health authority as soon as it is your turn, including a booster dose if recommended.",
-			"icon": "https://i.ibb.co/NWKjgmj/virus-2.png",
-			"service_img": "https://i.ibb.co/02FMz1F/02.jpg"
-		}
-	]
+  "services": [
+    {
+      "id": 1,
+      "class": "animation",
+      "treatment": "Vitamin Therapy:",
+      "price": 15000,
+      "description": "Experience the power of personalized vitamin therapy. Our dedicated area for administering intravenous (IV) vitamin therapy is overseen by qualified medical professionals. Receive tailored vitamin infusions to support your specific health goals, whether it&#39;s boosting energy levels, enhancing immune function, or promoting overall well-being.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/vitamins-complex-concept_118813-3009.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 2,
+      "class": "animation",
+      "treatment": "Psychological Clinic",
+      "price": 25000,
+      "description": "Our psychological clinic provides a nurturing space for counseling, therapy, and mental health support. Our licensed psychologists and therapists offer individual therapy, couples counseling, group therapy, and workshops on various mental health topics. We are here to help you navigate life&#39;s challenges and cultivate mental well-being.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/psychologist-typographic-header-mental-health-diagnostic-doctor-treating-human-mind-psychological-test-help-thoughts-emotions-analysis-vector-illustration-cartoon-style_613284-976.jpg?w=1800&t=st=1692088833~exp=1692089433~hmac=601cd5a79fb172970d4f8bcc1515bd3c8d33249b06f6488e966b5c5d383c1dd7"
+    },
+    {
+      "id": 3,
+      "class": "animation",
+      "treatment": "Cosmetology Center",
+      "price": 3000,
+      "description": "Indulge in the transformative treatments offered at our cosmetology center. Our licensed aestheticians and cosmetologists provide a range of services, including facials, skincare treatments, non-invasive beauty procedures, and hair services. Enhance your natural beauty and rejuvenate your appearance in a serene and welcoming environment.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/hand-drawn-flat-design-cosmetologist-illustration_23-2149336991.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 4,
+      "class": "",
+      "treatment": "Holistic Hair and Scalp Treatments",
+      "price": 100,
+      "description": "Indulge in our specialized hair and scalp treatments that integrate natural and holistic approaches. Whether you&#39;re dealing with hair loss, dandruff, or  dryness, our cosmetology experts will provide personalized solutions for your specific needs.  Restore your hair&#39;s health and vitality in a rejuvenating environment.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/woman-doctor-stands-looks-her-hand-with-magnifying-glass-against-background-her-hair_638892-45.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 5,
+      "class": "animation",
+      "treatment": "Holistic Sleep Improvement Programs",
+      "price": 9000,
+      "description": "Experience the benefits of quality sleep through our holistic programs. Our approach combines personalized vitamin therapy plans, psychological  techniques for relaxation, and cosmetology treatments for creating a soothing bedtime routine. Enhance your sleep quality and wake up feeling refreshed and rejuvenated.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/sleep-analysis-concept-illustration_114360-6818.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 6,
+      "class": "",
+      "treatment": "Reproductive Nutrition Support Center",
+      "price": 1800,
+      "description": "Our nutrition specialists provide personalized consultations and nutritional plans to optimize your fertility and reproductive health. We believe that proper nutrition plays a vital role in the journey to parenthood and are committed to supporting couples along the way.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/female-reproductive-system-concept_52683-45670.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 7,
+      "class": "",
+      "treatment": "Sexology Counseling Services",
+      "price": 0,
+      "description": "Enhance your sexual health and satisfaction through our supportive and non-judgmental sexology counseling services. Our certified sexologists help couples address concerns, receive education, and explore ways to deepen intimacy and connection in their relationship.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/hand-drawn-sex-toys-illustration_23-2149997599.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 8,
+      "class": "",
+      "treatment": "Mindfulness and Meditation",
+      "price": 0,
+      "description": "Immerse yourself in the practice of mindfulness and meditation. Our classes and workshops provide a space for relaxation, stress reduction, and mental clarity. Learn techniques to cultivate present-moment awareness and find inner peace amidst the demands of daily life. Discover the transformative power of mindfulness.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/body-chakras-mystical-concept_23-2148565154.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 9,
+      "class": "",
+      "treatment": "Holistic Mindful Parenting Programs",
+      "price": 0,
+      "description": "Discover mindful parenting techniques through our specialized programs and workshops. We provide psychological support, vitamin therapy for parental well-being, and cosmetology services that promote self-care for parents. Learn how to navigate the challenges of parenthood with grace and create a nurturing environment for your children.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/hand-drawn-family-scenes-illustrated_23-2149082830.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 10,
+      "class": "",
+      "treatment": "Holistic Teen Mental Health Programs",
+      "price": 0,
+      "description": "Nurture the mental health and well-being of teenagers with our specialized programs and services. We provide psychological counseling, vitamin therapy for adolescent mental health, and cosmetology treatments that promote self-esteem and self-expression. Support your teen&#39;s emotional growth and well-being in a caring and empowering environment.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/holiday-womens-day-march-8-girl-with-bouquet-flowers_546897-95.jpg?w=1060"
+    },
+    {
+      "id": 11,
+      "class": "",
+      "treatment": "Holistic Weight Loss Programs",
+      "price": 0,
+      "description": "Achieve your weight goals through our holistic weight loss programs. Our comprehensive approach includes personalized nutrition plans, psychological support for behavior change, fitness guidance, and cosmetology treatments for body contouring and skin tightening. Experience sustainable weight management that nourishes your body and mind.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/tiny-people-follow-diet-plan-with-healthy-food-with-vegetables-fruit-physical-activity_501813-1599.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 12,
+      "class": "",
+      "treatment": "Holistic Addiction Treatment Programs",
+      "price": 0,
+      "description": "Find hope and healing through our comprehensive addiction treatment programs. Our approach integrates vitamin therapy for nutritional support, psychological counseling for addressing underlying issues, and cosmetology services to promote",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/person-with-stress-problem-flat-drug-addiction-illustration_109722-3144.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 13,
+      "class": "",
+      "treatment": "Holistic Aging Programs",
+      "price": 0,
+      "description": "Embrace healthy aging with our specialized programs that prioritize overall well-being. Our holistic approach combines vitamin therapy, psychological support for mental well-being, and cosmetology treatments for skin rejuvenation and anti-aging purposes. Rediscover your vitality and radiance as you navigate the different stages of life",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/flat-hand-drawn-facial-massage-technique_23-2148843965.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+
+    {
+      "id": 16,
+      "class": "",
+      "treatment": "Holistic Pre-Wedding Packages",
+      "price": 0,
+      "description": "Prepare for your special day with our comprehensive pre-wedding packages. Our offerings include psychological support for managing wedding-related stress, vitamin therapy for energy and radiance, and cosmetology services for bridal beauty and relaxation. Let us support you in creating a joyful and stress-free wedding experience.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/wedding-party-style-hawaii-tropical-arch-ceremony-bride-groom-yello_637281-576.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+
+    {
+      "id": 18,
+      "class": "",
+      "treatment": "Fitness Programs",
+      "price": 0,
+      "description": "Elevate your fitness journey with our expertly designed fitness programs. Whether you prefer group classes, personal training, or fitness consultations, our experienced instructors and trainers are here to guide and inspire you. Discover the joy of movement and achieve your fitness goals in a supportive and motivating atmosphere.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/stretching-exercises-concept-illustration_114360-8922.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=sph"
+    },
+    {
+      "id": 19,
+      "class": "",
+      "treatment": "Marriage Counseling Services",
+      "price": 0,
+      "description": "Our experienced counselors provide a safe and confidential space for couples to address challenges, enhance communication, and foster deeper emotional connections. We utilize evidence-based techniques and personalized guidance to help you navigate difficulties and improve your relationship dynamics.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/proposal-cartoon-people-characters-isolated-illustration-white-background-young-handsome-man-suit-offer-his-hand-pretty-woman-evening-dress-he-is-giving-her-ring-flowers_89615-1028.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 20,
+      "class": "",
+      "treatment": "Premarital Preparatory Programs",
+      "price": 0,
+      "description": "Prepare for a successful and fulfilling marriage with our premarital preparatory programs. Our expert facilitators help you navigate important topics such as communication, conflict resolution, shared values, and future goals. Gain the knowledge, skills, and tools to build a strong foundation for a lifetime of love and happiness.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/watercolor-asian-couple-illustration_23-2150052609.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 21,
+      "class": "",
+      "treatment": "Wedding Planning Center",
+      "price": 0,
+      "description": "Let our knowledgeable wedding consultants alleviate the stress of planning your special day. From expert advice to event coordination and vendor connections, we are dedicated to ensuring a seamless and unforgettable experience. Trust us to help you create the wedding of your dreams, from venue selection to budget management.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/wedding-planner-concept-professional-organizer-planning-wedding-event-bride-fiance-mariage-coordination-flat-vector-illustration_613284-1776.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 22,
+      "class": "",
+      "treatment": "Holistic Relationship and Wedding Consultancy",
+      "price": 0,
+      "description": "Our holistic consultancy caters to couples at various stages of their relationship. From premarital preparation to ongoing relationship support, we provide comprehensive guidance tailored to your unique needs. Our goal is to help you build a strong foundation for a fulfilling and harmonious partnership.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/happy-family-accepting-terms-contract-vector_81522-1942.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 23,
+      "class": "",
+      "treatment": "Relationship and Wellness Retreats",
+      "price": 0,
+      "description": "Escape the demands of daily life and rejuvenate your relationship through our transformative retreats. Immerse yourself in expert-led workshops, couples&#39; activities, and relaxation in a serene setting. Deepen your bond, gain valuable insights, and create lasting memories together.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/couple-meditating-nature-leaves-concept-yoga-meditation-relax-healthy-lifestyle_24877-64666.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 24,
+      "class": "",
+      "treatment": "Integrated Wellness Services",
+      "price": 0,
+      "description": "At Lifeline Center, we understand that a strong relationship is built on a foundation of holistic well-being. Our integrated wellness services address the diverse needs of couples, promoting mental, emotional, and physical health. From mind wellness and fortitude to nutrition therapy, we are here to guide you on your journey to a healthier and happier you.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/healthy-lifestyle-habits-cartoon-composition-with-nonsmoking-woman-practice-stress-relieving-yoga-8h-sleep-diet_1284-59040.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 25,
+      "class": "",
+      "treatment": "Holistic Beauty and Wellness Mobile App",
+      "price": 0,
+      "description": "Stay connected to your wellness journey with our mobile app. Our user-friendly platform provides resources, tips, and personalized recommendations for holistic beauty, wellness, and self-care. Track your vitamin therapy progress, engage in mental health exercises, access guided meditation sessions, and discover product recommendations that align with your unique needs.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/mobile-phone-screen-with-girl-subscriber-beauty-blogger-vector-illustration_181313-2743.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 26,
+      "class": "",
+      "treatment": "Holistic Financial Wellness Programs",
+      "price": 0,
+      "description": "Uncover the connection between financial well-being and mental health through our specialized programs. Our approach combines psychological counseling for financial stress, vitamin therapy for cognitive function, and cosmetology services that promote self-confidence and self-care. Gain the tools and strategies to achieve financial wellness while nurturing your mental well-being.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/money-chart-income-growth-financial-icon_71374-1953.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=sph"
+    },
+    {
+      "id": 27,
+      "class": "",
+      "treatment": "Holistic Fitness and Wellness Classes",
+      "price": 0,
+      "description": "Join our fitness classes that go beyond traditional workouts. Our holistic approach integrates psychological techniques for motivation and stress reduction, vitamin therapy for energy and recovery, and cosmetology tips for post-workout skincare and self-care. Experience the power of a comprehensive fitness routine that nourishes your body and uplifts your spirit.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/world-health-day-people-exercising-stay-healthy-healthy-lifestyle-running-yoga-illustration_138260-1468.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 28,
+      "class": "",
+      "treatment": "Mindful Eating Workshops",
+      "price": 0,
+      "description": "Develop a healthy relationship with food through our mindful eating workshops. These transformative sessions combine nutritional guidance, psychological  support, and mindfulness techniques to help you develop a balanced and mindful approach to nourishment. Cultivate a positive and sustainable relationship with food for long-term well- being.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/premium-vector/raw-eating-isolated-cartoon-vector-illustrations_107173-22665.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=ais"
+    },
+    {
+      "id": 29,
+      "class": "",
+      "treatment": "Workshops, Seminars, and Support Groups",
+      "price": 0,
+      "description": "Develop a healthy relationship with food through our mindful eating workshops. These transformative sessions combine nutritional guidance, psychological support, and mindfulness techniques to help you develop a balanced and mindful approach to nourishment. Cultivate a positive and sustainable relationship with food for long-term well- being.",
+      "icon": "lif.png",
+      "service_img": "https://img.freepik.com/free-vector/coach-speaking-before-audience-mentor-presenting-charts-reports-employees-meeting-business-training-seminar-conference-vector-illustration-presentation-lecture-education_74855-8294.jpg?size=626&ext=jpg&uid=R105309617&ga=GA1.2.1203045657.1691589692&semt=sph"
+    }
+  ]
 }
